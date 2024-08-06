@@ -8,7 +8,7 @@ type Props = {};
 function Header({}: Props) {
   return (
     <header className={cn('border border-b')}>
-      <Container className="flex items-center justify-center py-8">
+      <Container className="flex items-center justify-between py-8">
         {/* Левая часть */}
         <div>
           <Image src={'/logo.png'} alt="logo" width={35} height={35} />
