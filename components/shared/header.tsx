@@ -10,7 +10,7 @@ function Header({}: Props) {
     <header className={cn('border border-b')}>
       <Container className="flex items-center justify-between py-8">
         {/* Левая часть */}
-        <div>
+        <div className="flex items-center gap-4">
           <Image src={'/logo.png'} alt="logo" width={35} height={35} />
           <div>
             <h1 className="text-2xl uppercase font-black">Next Pizza</h1>
